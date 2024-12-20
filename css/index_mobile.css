@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* responsive - mobile UI */
+/* max-width 767px */
+
+body {
+    /* background-color: lavender; */
+}
+
+header .logo img {
+    height: 40px;
+    margin-top: 15px;
+    /* 우측 메뉴 아이콘과 아래를 기준으로 정렬을 맞추기 위해 마진값 설정 */
+}
+
+header .m-menu-v2 {
+    margin-top: 17px;
+}
+
+header .m-menu-v2 span {
+    width: 36px;
+}
+
+header .m-menu-v2 span:nth-child(2) {
+    margin: 10px 0;
+}
+
+/* ****************************************** */
+
+article.intro {
+    height: auto;
+    position: static;
+
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 300px; /* 배경이미지 넣을 공간 */
+    background-size: auto 300px;
+    background-position: right bottom;
+}
+
+article.intro .txt-box {
+    width: 100%;
+    position: static;
+    margin-bottom: 40px;
+}
+
+article.intro .txt-box p {}
+
+article.intro .txt-box p.des-en {}
+
+article.intro .txt-box p.des-ko {}
+
+article.intro .btn {
+    position: static;
+    margin-bottom: 40px;
+}
+
+/* *********************************************** */
+
+article.works {
+    
+}
+
+article.works .img-box-wrap .img-box {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    
+}
+
+article.works .img-box-wrap .img-box ~ .img-box {
+    margin-left: 0;
+}
+
+
+article.about p {
+    width: 100%;
+}
+
+article.news {}
+
+article.news .sec-tit {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article.news > p {
+    text-align: center;
+    word-break: keep-all;
+}
+
+article.news .box-wrap .box {
+    width: 100%;
+    float: none;
+    margin-bottom: 14px;
+}
+
+article.news .box-wrap .box~.box {
+    margin-left: 0;
+}
+
+section.contact .sec-tit {
+    font-size: 40px;
+    font-size: 2.5rem;
+}
+
+section.contact p {
+    word-break: keep-all;
+}
+
+section.contact .btn {
+    padding: 12px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer .top {
+    /* bottom: 230px; */
+
+    /* footer 시작 이전에 위치 지정 */
+    bottom: calc(100% - 50px);
+
+    /* top 버튼 전체 너비만큼 위에서 아래로 끌어내림(정수값) */
+    transform: translateY(100%);
+
+    right: 5%;
+    
+}
+
+
